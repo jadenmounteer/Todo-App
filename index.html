@@ -11,46 +11,53 @@
     <script src="js/main.js"  defer></script>
 </head>
 <body>
-    <header>
-    </header>
-
-    <h1>Todos</h1>
-    <!--The list of todo elements todo form -->
-    <form class="todo-elements-form" action="#">
-        <div class="task-div">
-            <input type="checkbox" name="checkbox1">
-            <label for="checkbox1" class="task-label">Task</label>
-            <label for="checkbox1" class="delete-x-button">X</label>
-        </div>
-
-        <div class="filer-div">
-            <label class="total-label" id="total-label">1 task left</label>
-            <!-- If filter is all, total should be the active tasks -->
-            <label class="filter-label" id="all-filter-label">All</label>
-            <label class="filter-label" id="active-filter-label">Active</label>
-            <label class="filter-label" id="completed-filter-label">Completed</label>
-        </div>
-
-    </form>
-
-    <!-- The add task form -->
-    <form action="#">
-        <input type="text" name="add-task-input" class="add-task-input">
-        <label class="add-task-input-button" for="add-task-input">+</label>
-    </form>
-
-
-
-    <!-- Shia Labeouf Just Do It Video -->
-
-    <video id="shia-labouf" width="320" height="240" loop>
-        <source src="assets/Shia-Labouf-White-Background.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="content">
+        <header>
+            <h1 class="page-title">Just Do It</h1>
+        </header>
+    
+        
+        <!--The list of todo elements todo form -->
+        <form class="todo-elements-form" action="#">
+            <div class="task-list-div task-div">
+                <!-- Make a custom checkbox here -->
+                <input type="checkbox" name="checkbox1" class="task-checkbox">
+                <label for="checkbox1" class="task-label" class="task-label">Task</label>
+                <label for="checkbox1" class="task-delete-x-button">X</label>
+            </div>
+    
+            <div class="task-list-div filer-div">
+                <label class="total-label" id="total-label">1 task left</label>
+                <!-- If filter is all, total should be the active tasks -->
+                <label class="filter-label" id="all-filter-label">All</label>
+                <label class="filter-label" id="active-filter-label">Active</label>
+                <label class="filter-label" id="completed-filter-label">Completed</label>
+            </div>
+    
+        </form>
+    
+        
     
     
-    <footer>
+    
+        <!-- Shia Labeouf Just Do It Video -->
+    
+        <video id="shia-labouf" width="320" height="240" loop preload="Y">
+            <source src="assets/Shia-Labeouf-Snow-Background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
-    </footer>
+        <footer>
+            <!-- The add task form -->
+            <form class="add-task-form" action="#">
+                <input type="text" name="add-task-input" class="add-task-input">
+                <label class="add-task-input-button" for="add-task-input">+</label>
+            </form>
+    
+        </footer>
+
+
+    </div>
+    
 </body>
 </html>

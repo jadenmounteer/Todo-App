@@ -1,0 +1,47 @@
+/* Style the individual task list divs */
+.task-list-div  {
+    // Put a border around the task. The bottom side does not have a border
+    border-style: solid solid none;
+    border-width: 1px;
+    min-height: $input-height;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: $copy-font;
+    
+}
+
+/* Style the filter div */
+.filer-div {
+    // Add a border to the bottom and top
+    border-style: solid solid solid;
+    font-size: 1.3em;
+}
+
+.filter-label, .total-label {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.task-label {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5em;
+}
+
+.task-delete-x-button {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2.5em;
+}
+
+/* Style the custom checkbox */
+.task-checkbox {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+

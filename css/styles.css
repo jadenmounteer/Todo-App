@@ -1,10 +1,108 @@
-/* 
-Color Pallet: https://coolors.co/b28d87-7cc6e6-fffaf6-fce03e-f78d00-e45d38
-Sunset. It symbolizes a new day.
-*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 /* Style shia labeof */
 #shia-labouf {
   /* Default the display to none */
-  display: none; }
+  display: none;
+  margin: auto; }
+
+/* Style the individual task list divs */
+.task-list-div {
+  border-style: solid solid none;
+  border-width: 1px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif; }
+
+/* Style the filter div */
+.filer-div {
+  border-style: solid solid solid;
+  font-size: 1.3em; }
+
+.filter-label, .total-label {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.task-label {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5em; }
+
+.task-delete-x-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 2.5em; }
+
+/* Style the custom checkbox */
+.task-checkbox {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+/* Get rid of the margin */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Style the html */
+html {
+  background-color: #FFFAF6; }
+
+/* Center the content of the page */
+.content {
+  max-width: 100%;
+  margin: auto; }
+
+/* Style the todo list form */
+.todo-elements-form {
+  max-width: 30%;
+  min-width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white; }
+
+/* Styl the page title */
+.page-title {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  color: #FFFAF6;
+  font-size: 3em; }
+
+header {
+  background-color: #E45D38; }
+
+/* Style the add task form */
+.add-task-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 30%;
+  min-width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: white; }
+
+/* Style the input */
+.add-task-input {
+  width: 90%;
+  min-height: 50px; }
+
+.add-task-input {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em; }
+
+.add-task-input-button {
+  font-size: 2.5em;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 2px;
+  padding-bottom: 13px;
+  font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */

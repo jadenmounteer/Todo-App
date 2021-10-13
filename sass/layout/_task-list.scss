@@ -1,0 +1,10 @@
+/* Style the todo list form */
+.todo-elements-form {
+    // Make the form skinnier
+    max-width: $max-form-width;
+    min-width: $min-form-width;
+    // Center the form in the content div
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+}

@@ -6,7 +6,8 @@ $(document).ready(function(){
       // Play the video
       document.getElementById("shia-labouf").play();
       // Show the video
-      setTimeout(function(){ document.getElementById("shia-labouf").style.display = "block"; }, 3000);
+      document.getElementById("shia-labouf").style.display = "block";
+      //setTimeout(function(){ document.getElementById("shia-labouf").style.display = "block"; }, 3000);
       
       });
       

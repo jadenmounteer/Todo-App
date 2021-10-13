@@ -1,0 +1,28 @@
+/* Style the add task form */
+.add-task-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    // Make the form skinnier
+    max-width: $max-form-width;
+    min-width: $min-form-width;
+    // Center the form in the content div
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+
+/* Style the input */
+.add-task-input {
+    width: 90%;
+    min-height: $input-height;
+
+}
+
+.add-task-input {
+    font-family: $copy-font;
+    font-size: 1.5em;
+}

@@ -1,0 +1,38 @@
+
+//Color Pallet: https://coolors.co/b28d87-7cc6e6-fffaf6-fce03e-f78d00-e45d38
+//Sunset. It symbolizes a new day.
+// Command to have Sass watch for changes: sass --watch sass/main.scss:css/styles.css
+
+// Color variables
+$rosy-brown:#B28D87;
+$sky-blue:#7CC6E6;
+$snow:#FFFAF6;
+$minion-yellow:#FCE03E;
+$yellow-orange:#F78D00;
+$orange-soda:#E45D38;
+
+// Fonts
+// Roboto 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+$copy-font: 'Roboto', sans-serif;
+// Anton
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+$title-font: 'Anton', sans-serif;
+
+// Layout variables
+$page-width: 100%;
+$max-form-width: 30%;
+$min-form-width: 20%;
+$input-height: 50px;
+
+// Import the modularized Sass parials
+@import "elements/shia-labeouf";
+@import "elements/task";
+@import "layout/main-page";
+@import "layout/task-list";
+@import "layout/header";
+@import "layout/add-task-form";
+@import "elements/add-task-input-button";
+
+
+
