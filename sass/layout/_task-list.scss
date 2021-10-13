@@ -1,10 +1,15 @@
 /* Style the todo list form */
 .todo-elements-form {
     // Make the form skinnier
-    max-width: $max-form-width;
+    //max-width: $max-form-width;
     min-width: $min-form-width;
     // Center the form in the content div
     margin: auto;
     margin-top: 20px;
     background-color: white;
+    @include for-phone-only {max-width: 90%;}
+    @include for-tablet-portrait-up {max-width: 80%;}
+    @include for-tablet-landscape-up {max-width: 60%;}
+    @include for-desktop-up {max-width: 50%;}
+    @include for-big-desktop-up {max-width: 30%;}
 }

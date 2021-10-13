@@ -6,8 +6,13 @@
     border-width: 1px;
     padding-left: ($input-height / 2) - 8px;
     padding-right: ($input-height / 2) - 8px;
-    padding-top: ($input-height / 2) - 23px;
-    padding-bottom: ($input-height / 2) - 12px;
+   // padding-top: ($input-height / 2) - 23px;
+    //padding-bottom: ($input-height / 2) - 12px;
     font-family: $copy-font;
-    
+    cursor: pointer;
+    background-color: $snow;
+}
+
+.add-task-input-button:hover {
+    background-color: $sky-blue;
 }

@@ -20,7 +20,8 @@
 /* Style the filter div */
 .filer-div {
   border-style: solid solid solid;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  background-color: #7CC6E6; }
 
 .filter-label, .total-label {
   margin-top: auto;
@@ -57,11 +58,25 @@ html {
 
 /* Style the todo list form */
 .todo-elements-form {
-  max-width: 30%;
-  min-width: 20%;
+  min-width: 0%;
   margin: auto;
   margin-top: 20px;
   background-color: white; }
+  @media (max-width: 599px) {
+    .todo-elements-form {
+      max-width: 90%; } }
+  @media (min-width: 600px) {
+    .todo-elements-form {
+      max-width: 80%; } }
+  @media (min-width: 900px) {
+    .todo-elements-form {
+      max-width: 60%; } }
+  @media (min-width: 1200px) {
+    .todo-elements-form {
+      max-width: 50%; } }
+  @media (min-width: 1800px) {
+    .todo-elements-form {
+      max-width: 30%; } }
 
 /* Styl the page title */
 .page-title {
@@ -77,14 +92,28 @@ header {
 .add-task-form {
   margin-top: 10px;
   margin-bottom: 10px;
-  max-width: 30%;
-  min-width: 20%;
+  min-width: 0%;
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   background-color: white; }
+  @media (max-width: 599px) {
+    .add-task-form {
+      max-width: 90%; } }
+  @media (min-width: 600px) {
+    .add-task-form {
+      max-width: 80%; } }
+  @media (min-width: 900px) {
+    .add-task-form {
+      max-width: 60%; } }
+  @media (min-width: 1200px) {
+    .add-task-form {
+      max-width: 50%; } }
+  @media (min-width: 1800px) {
+    .add-task-form {
+      max-width: 30%; } }
 
 /* Style the input */
 .add-task-input {
@@ -101,8 +130,11 @@ header {
   border-width: 1px;
   padding-left: 17px;
   padding-right: 17px;
-  padding-top: 2px;
-  padding-bottom: 13px;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: #FFFAF6; }
+
+.add-task-input-button:hover {
+  background-color: #7CC6E6; }
 
 /*# sourceMappingURL=styles.css.map */
