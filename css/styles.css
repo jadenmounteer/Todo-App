@@ -79,6 +79,12 @@
 #active-filter-label, #completed-filter-label {
   text-align: left; }
 
+#active-filter-label {
+  margin-left: -1.5em; }
+  @media (min-width: 600px) {
+    #active-filter-label {
+      margin-left: 0; } }
+
 /* Get rid of the margin */
 * {
   margin: 0;
