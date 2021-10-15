@@ -13,7 +13,7 @@
 <body>
     <div class="content">
         <header>
-            <h1 class="page-title">Just Do It</h1>
+            <h1 class="page-title" id="page-title">Just Do It</h1>
         </header>
     
         
@@ -21,15 +21,22 @@
         <form class="todo-elements-form" action="#">
             <div class="task-list-div task-div">
                 <!-- Make a custom checkbox here -->
-                <input type="checkbox" name="checkbox1" class="task-checkbox">
-                <label for="checkbox1" class="task-label" class="task-label">Task</label>
+                <span class="task-checkbox selected-checkbox" name="checkbox1">X</span>
+                <label for="checkbox1" class="task-label selected-label">Task</label>
                 <label for="checkbox1" class="task-delete-x-button">X</label>
+            </div>
+
+            <div class="task-list-div task-div">
+                <!-- Make a custom checkbox here -->
+                <span class="task-checkbox" name="checkbox2"></span>
+                <label for="checkbox2" class="task-label">Task</label>
+                <label for="checkbox2" class="task-delete-x-button">X</label>
             </div>
     
             <div class="task-list-div filer-div">
                 <label class="total-label" id="total-label">1 task left</label>
                 <!-- If filter is all, total should be the active tasks -->
-                <label class="filter-label" id="all-filter-label">All</label>
+                <label class="filter-label selected-filter" id="all-filter-label">All</label>
                 <label class="filter-label" id="active-filter-label">Active</label>
                 <label class="filter-label" id="completed-filter-label">Completed</label>
             </div>
@@ -40,12 +47,7 @@
     
     
     
-        <!-- Shia Labeouf Just Do It Video -->
-    
-        <video id="shia-labouf" width="320" height="240" loop>
-            <source src="assets/Shia-Labeouf-Snow-Background.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+       
 
         <footer>
             <!-- The add task form -->
@@ -53,6 +55,13 @@
                 <input type="text" name="add-task-input" class="add-task-input">
                 <label class="add-task-input-button" for="add-task-input">+</label>
             </form>
+
+             <!-- Shia Labeouf Just Do It Video -->
+            <!-- Does preload break the mobile version? -->
+            <video id="shia-labouf" width="320" height="240" loop>
+                <source src="assets/Shia-Labeouf-Snow-Background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
     
         </footer>
 

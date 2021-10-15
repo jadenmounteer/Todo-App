@@ -1,7 +1,5 @@
 /* Style the add task form */
 .add-task-form {
-    margin-top: 10px;
-    margin-bottom: 10px;
     // Make the form skinnier
     //max-width: $max-form-width;
     min-width: $min-form-width;
@@ -12,6 +10,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     background-color: white;
+    margin-top: 10%;
     @include for-phone-only {max-width: 90%;}
     @include for-tablet-portrait-up {max-width: 80%;}
     @include for-tablet-landscape-up {max-width: 60%;}

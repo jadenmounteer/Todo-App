@@ -1,0 +1,19 @@
+.selected-filter {
+    color: $snow;
+}
+
+.selected-label {
+    text-decoration: line-through;
+}
+
+
+.selected-checkbox {
+    font-size: 2em;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1.5px;
+    padding-bottom: 1.4px;
+    margin-left: .1em;
+    font-family: $copy-font;
+}
