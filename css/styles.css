@@ -43,8 +43,11 @@
   margin-top: auto;
   margin-bottom: auto;
   font-size: 2.5em;
-  margin-left: -.1em;
+  margin-left: -.3em;
   cursor: pointer; }
+  @media (min-width: 600px) {
+    .task-delete-x-button {
+      margin-left: -.1em; } }
 
 /* Style the custom checkbox */
 .task-checkbox {
@@ -64,7 +67,11 @@
 #all-filter-label, #active-filter-label, #completed-filter-label {
   grid-row: 1 / 2;
   text-align: center;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-left: -2em; }
+  @media (min-width: 600px) {
+    #all-filter-label, #active-filter-label, #completed-filter-label {
+      margin-left: 0; } }
 
 #all-filter-label {
   grid-column: 2 / 3; }
