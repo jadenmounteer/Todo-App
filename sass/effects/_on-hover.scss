@@ -3,13 +3,13 @@
 #all-filter-label:hover, #active-filter-label:hover, #completed-filter-label:hover {
     text-decoration: underline;
     animation-name: shake;
-    animation-duration: .3s;
+    animation-duration: 0.3s;
 }
 
 
 .task-delete-x-button:hover, .task-checkbox:hover, .add-task-input-button:hover {
     animation-name: shake;
-    animation-duration: .3s;
+    animation-duration: 0.3s;
 }
 
 
