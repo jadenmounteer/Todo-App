@@ -1,3 +1,8 @@
+// Import the Todos class
+import  TodoList from './todos.js';
+
+
+// JQuery 
 $(document).ready(function(){
     
     // jQuery methods go here...
@@ -23,8 +28,12 @@ $(document).ready(function(){
       //setTimeout(function(){ document.getElementById("shia-labouf").style.display = "block"; }, 3000);
       
       });
-
-  
-      
         
 });
+
+
+// Create an instance of Todos
+let todoList = new TodoList("this is a key");
+
+// Add a variable to store our list of tasks to the Todos.js module.
+let listOfTodos = null;
