@@ -87,6 +87,11 @@
    @include for-tablet-portrait-up {margin-left: 0;}
 }
 
+ul {
+    // Get rid of the bullet points on the list
+    list-style-type: none;
+}
+
 
 
 

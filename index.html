@@ -18,23 +18,19 @@
     
         
         <!--The list of todo elements todo form -->
-        <form class="todo-elements-form" action="#">
-            <div class="task-list-div task-div">
-                <!-- Make a custom checkbox here -->
-                <span class="task-checkbox selected-checkbox" name="checkbox1">X</span>
-                <label for="checkbox1" class="task-label selected-label">Task</label>
-                <label for="checkbox1" class="task-delete-x-button">X</label>
-            </div>
+        <form class="todo-elements-form" id="todo-elements-form" action="#">
+            <div id="to-do-list-div">
+                <ul id="to-do-list">
+                    
 
-            <div class="task-list-div task-div">
-                <!-- Make a custom checkbox here -->
-                <span class="task-checkbox" name="checkbox2"></span>
-                <label for="checkbox2" class="task-label">Task</label>
-                <label for="checkbox2" class="task-delete-x-button">X</label>
+                </ul>
             </div>
+            
+
+            
     
             <div class="task-list-div filer-div">
-                <label class="total-label" id="total-label">1 task left</label>
+                <label class="total-label" id="total-label">0 tasks left</label>
                 <!-- If filter is all, total should be the active tasks -->
                 <label class="filter-label selected-filter" id="all-filter-label">All</label>
                 <label class="filter-label" id="active-filter-label">Active</label>
@@ -43,22 +39,16 @@
     
         </form>
     
-        
-    
-    
-    
-       
-
         <footer>
             <!-- The add task form -->
             <form class="add-task-form" action="#">
-                <input type="text" name="add-task-input" class="add-task-input">
-                <label class="add-task-input-button" id="add-task-input-button" for="add-task-input">+</label>
+                <input type="text" name="add-task-input" class="add-task-input" id="add-task-input" onfocus="this.value=''">
+                <label class="add-task-input-button" id="add-task-input-button" for="add-task-input" >+</label>
             </form>
 
              <!-- Shia Labeouf Just Do It Video -->
-            <!-- Does preload break the mobile version? -->
-            <video id="shia-labouf" width="320" height="240" preload="Y" loop>
+            <!-- I use playsinline here so it will work on iphone -->
+            <video id="shia-labouf" width="320" height="240" preload="Y" loop playsinline>
                 <source src="assets/Shia-Labeouf-Snow-Background.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

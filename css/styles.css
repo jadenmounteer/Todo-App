@@ -85,6 +85,9 @@
     #active-filter-label {
       margin-left: 0; } }
 
+ul {
+  list-style-type: none; }
+
 /* Get rid of the margin */
 * {
   margin: 0;

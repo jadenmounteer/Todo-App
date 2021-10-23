@@ -12,7 +12,6 @@ export function qs(selector) { return document.querySelector(selector); }
  * add a touchend event listener to an element for mobile with a click event fallback for desktops
  * @param  {string} elementSelector The selector for the element to attach the listener to
  * @param {function} callback The callback function to run
- 
 */
 export function onTouch(elementSelector, callback) { 
     // Check if the user is using mobile 

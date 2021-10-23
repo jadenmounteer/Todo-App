@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 
 // Create an instance of Todos
-let todoList = new TodoList("this is a key");
+let todoList = new TodoList("todoListKey");
 
-// Add a variable to store our list of tasks to the Todos.js module.
-let listOfTodos = null;
+// Initiate the todoList
+todoList.initiate();
