@@ -109,7 +109,11 @@ function saveTodo(task, key) {
  * @return {array}     The value as an array of objects
  */
 function getTodos(key) { 
-    listOfTodos = ls.readFromLS(key);
+    let dataFromLocalStorage = ls.readFromLS(key);
+    if (dataFromLocalStorage != null) {
+        listOfTodos = ls.readFromLS(key);
+    }
+    
 }
 
 
@@ -167,7 +171,7 @@ function renderTodoList(list, element) {
         listElement.classList.add("task-list-div");
         listElement.classList.add("task-div");
 
-        // Build the task content inisde of the list
+        // Build the task content inside of the list
         listElement.innerHTML = 
         `
         ${customCheckbox}
