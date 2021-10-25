@@ -3,9 +3,7 @@
 /* Style shia labeof */
 #shia-labouf {
   /* Default the display to none */
-  display: none;
-  position: absolute;
-  left: 43%; }
+  margin: auto; }
 
 /* Style the individual task list divs */
 .task-list-div {
