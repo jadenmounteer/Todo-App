@@ -4,7 +4,7 @@
 #shia-labouf {
   /* Default the display to none */
   display: none;
-  position: fixed;
+  position: absolute;
   left: 43%; }
 
 /* Style the individual task list divs */
