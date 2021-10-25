@@ -8,7 +8,7 @@ $(document).ready(function(){
     // jQuery methods go here...
 
     // Make Shia appear 
-  /*
+  
     // PC
     $(document).mouseenter(function(){
       // Play the video
@@ -28,7 +28,6 @@ $(document).ready(function(){
       //setTimeout(function(){ document.getElementById("shia-labouf").style.display = "block"; }, 3000);
       
       });
-      */
         
 });
 
