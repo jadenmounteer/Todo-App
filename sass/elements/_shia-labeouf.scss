@@ -7,6 +7,10 @@
     /* Default the display to none */
     display: none;
     // Center Shia
-    margin: auto;
+   // margin: auto;
+    // Change position of the video so it works with the ios 15 update
+    position: fixed;
+    left: 43%;
+    // Might need to include a media query here so he can be centered on different screen sizes
 
 }

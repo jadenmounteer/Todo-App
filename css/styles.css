@@ -4,7 +4,8 @@
 #shia-labouf {
   /* Default the display to none */
   display: none;
-  margin: auto; }
+  position: fixed;
+  left: 43%; }
 
 /* Style the individual task list divs */
 .task-list-div {
