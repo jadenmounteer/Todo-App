@@ -41,5 +41,5 @@ let todoList = new TodoList("todoListKey");
 // Initiate the todoList
 todoList.initiate();
 
-document.getElementById("shia-labouf").style.display = "block";
+//document.getElementById("shia-labouf").style.display = "block";
 document.getElementById("shia-labouf").muted = false;
