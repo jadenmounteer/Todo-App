@@ -1,6 +1,10 @@
 // Import the Todos class
 import  TodoList from './todos.js';
 
+// Check if the device is an iphone
+var isIphone = navigator.userAgent.indexOf("iPhone") != -1 ;
+
+/*
 // JQuery 
 $(document).ready(function(){
     
@@ -14,7 +18,7 @@ $(document).ready(function(){
       //document.getElementById("shia-labouf").play();
       // Show the video
       //document.getElementById("shia-labouf").style.display = "block";
-      document.getElementById("shia-labouf").muted = false;
+      //document.getElementById("shia-labouf").muted = false;
      
       
       });
@@ -23,19 +27,23 @@ $(document).ready(function(){
     $(document).on("tap", function(){
       // Play the video
       //document.getElementById("shia-labouf").play();
-      document.getElementById("shia-labouf").muted = false;
+      //document.getElementById("shia-labouf").muted = false;
   
       
       });
 
         
 });
-
+*/
 
 // Create an instance of Todos
 let todoList = new TodoList("todoListKey");
 
 // Initiate the todoList
 todoList.initiate();
-var isIphone = navigator.userAgent.indexOf("iPhone") != -1 ;
-alert(isIphone);
+
+// If the device is not an iphone, remove the controls and umute the video
+if (!isIphone) {
+  document.getElementById("shia-labouf").controls = false;
+  document.getElementById("shia-labouf").muted = false;
+}
