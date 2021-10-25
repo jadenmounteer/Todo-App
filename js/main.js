@@ -1,7 +1,6 @@
 // Import the Todos class
 import  TodoList from './todos.js';
 
-
 // JQuery 
 $(document).ready(function(){
     
@@ -16,8 +15,7 @@ $(document).ready(function(){
       // Show the video
       //document.getElementById("shia-labouf").style.display = "block";
       document.getElementById("shia-labouf").muted = false;
-      //setTimeout(function(){ document.getElementById("shia-labouf").style.display = "block"; }, 3000);
-      //setTimeout(function(){ document.getElementById("shia-labouf").muted = false; }, 3000);
+     
       
       });
 
@@ -25,11 +23,8 @@ $(document).ready(function(){
     $(document).on("tap", function(){
       // Play the video
       //document.getElementById("shia-labouf").play();
-      // Show the video
-      //document.getElementById("shia-labouf").style.display = "block";
       document.getElementById("shia-labouf").muted = false;
-      //setTimeout(function(){ document.getElementById("shia-labouf").style.display = "block"; }, 3000);
-      //setTimeout(function(){ document.getElementById("shia-labouf").muted = false; }, 3000);
+  
       
       });
 
@@ -42,7 +37,5 @@ let todoList = new TodoList("todoListKey");
 
 // Initiate the todoList
 todoList.initiate();
-
-//document.getElementById("shia-labouf").style.display = "block";
-//document.getElementById("shia-labouf").muted = false;
-//setTimeout(function(){ document.getElementById("shia-labouf").muted = false; }, 3000);
+var isIphone = navigator.userAgent.indexOf("iPhone") != -1 ;
+alert(isIphone);
