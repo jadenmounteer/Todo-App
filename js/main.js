@@ -43,3 +43,4 @@ todoList.initiate();
 
 //document.getElementById("shia-labouf").style.display = "block";
 //document.getElementById("shia-labouf").muted = false;
+setTimeout(function(){ document.getElementById("shia-labouf").muted = false; }, 3000);
