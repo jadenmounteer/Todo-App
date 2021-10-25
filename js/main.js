@@ -10,8 +10,7 @@ let todoList = new TodoList("todoListKey");
 // Initiate the todoList
 todoList.initiate();
 
-// If the device is an iphone, remove autoplay and add the controls so the user can play the video
+// If the device is an iphone, remove autoplay so the user can play the video manually
 if (isIphone) {
   document.getElementById("shia-labouf").autoplay = false;
-  document.getElementById("shia-labouf").controls = true;
 }
